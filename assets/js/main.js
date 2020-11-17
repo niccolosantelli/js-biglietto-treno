@@ -22,7 +22,7 @@ var prezzoAnziani = prezzo - scontoAnziani;
 
 
   if (anniUtente < 18) {
-   alert( "il prezzo del biglietto applicando lo sconto del 20% è "  + prezzoMinori);
+   alert( "il prezzo del biglietto applicando lo sconto del 20% è "  + prezzoMinori)
 
    document.getElementById('prezzoBiglietto').innerHTML = "Buon Viaggio!";
 
